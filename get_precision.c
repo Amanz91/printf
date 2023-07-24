@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * get_precision - Calculates the precision for printing
@@ -6,7 +6,7 @@ include "main.h"
  * @i: List of arguments to be printed.
  * @list: list of arguments.
  *
- * Return: Precision.
+ * Return: precision.
  */
 int get_precision(const char *format, int *i, va_list list)
 {
