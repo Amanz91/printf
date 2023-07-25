@@ -1,8 +1,8 @@
 #include "main.h"
 
-/************************* PRINT UNSIGNED NUMBER *************************/
+/************************** PRINT UNSIGNED NUMBER **************************/
 /**
- * print_unsigned - Prints an unsigned number
+ * print_unsigned - Prints an unsigned number on our code
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -37,7 +37,7 @@ int print_unsigned(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
- * print_octal - Prints an unsigned number in octal notation
+ * print_octal - Prints an unsigned number in octal notation on our code
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -79,7 +79,7 @@ int print_octal(va_list types, char buffer[],
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
- * print_hexadecimal - Prints an unsigned number in hexadecimal notation
+ * print_hexadecimal - Prints an unsigned number in hexadecimal notation in this code
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
